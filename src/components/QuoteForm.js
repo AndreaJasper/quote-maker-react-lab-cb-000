@@ -2,18 +2,18 @@
 // import uuid from 'uuid';
 // import { connect } from 'react-redux';
 // import { addQuote } from '../actions/quotes';
-// 
+//
 // class QuoteForm extends Component {
-// 
+//
 //   state = {
 //     content: '',
 //     author: ''
 //   }
-// 
+//
 //   handleOnChange = event => {
 //     this.setState({ [event.target.name]: event.target.value })
 //   }
-// 
+//
 //   handleOnSubmit = event => {
 //     event.preventDefault()
 //     const quote = {
@@ -25,7 +25,7 @@
 //     this.props.addQuote(quote)
 //     this.setState({ content: '', author: '' })
 //   }
-// 
+//
 //   render() {
 //     return (
 //       <div className="container">
@@ -71,5 +71,5 @@
 //     );
 //   }
 // }
-// 
+//
 // export default connect(null, { addQuote })(QuoteForm);
